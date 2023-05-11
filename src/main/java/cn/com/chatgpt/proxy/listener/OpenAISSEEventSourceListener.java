@@ -90,10 +90,6 @@ public class OpenAISSEEventSourceListener extends EventSourceListener {
         eventSource.cancel();
     }
 
-    /**
-     * tokens
-     * @return
-     */
     public long tokens() {
         return tokens;
     }
